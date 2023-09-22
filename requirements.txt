@@ -3,11 +3,11 @@ scikit-learn
 scikit-image
 
 # requirement for Pytorch, Torchvision, TorchText
-torch
-torchvision
-torchtext
-torchaudio
-torchdata
+#torch
+#torchvision
+#torchtext
+#torchaudio
+#torchdata
 
 # dependency for coremltools
 coremltools
@@ -44,3 +44,6 @@ h5py
 
 # for reading byte data
 pybase64
+
+# export onnx
+onnx==1.14.1

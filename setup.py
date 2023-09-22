@@ -46,6 +46,7 @@ def do_setup(package_data):
                 "cvnets-eval-seg = main_eval:main_worker_segmentation",
                 "cvnets-eval-det = main_eval:main_worker_detection",
                 "cvnets-convert = main_conversion:main_worker_conversion",
+                "cvnets-convert-onnx = main_conversion_onnx:main_worker_conversion",
                 "cvnets-loss-landscape = main_loss_landscape:main_worker_loss_landscape",
             ],
         },
